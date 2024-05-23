@@ -1,3 +1,10 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "no-console": ["warn"],
+    "block-spacing": "error",
+    "camelcase": "error",
+    "comma-spacing": "error",
+    "computed-property-spacing": "error"
+  }
 }
