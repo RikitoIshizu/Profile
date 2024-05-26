@@ -6,9 +6,9 @@ import { Menu } from "@/lib/types";
 export default function Header() {
   const presentPath = usePathname();
   const menu: Menu[] = [
-    { name: "とうろく", path: "register" },
-    { name: "このサイトについて", path: "about" },
-    { name: "登録したグッズ", path: "list" },
+    { name: "Career", path: "career" },
+    { name: "Profile", path: "profile" },
+    { name: "SNS", path: "sns" },
   ];
 
   const isPresentPath = (path: string) => {
@@ -25,7 +25,7 @@ export default function Header() {
     <header className="z-10 h-20 bg-white w-full px-48 flex items-center font-mono fixed">
       <div>
         <h1 className="text-4xl font-bold">
-          <Link href="/">かわいいグッズ</Link>
+          <Link href="/">石津勲人公式ページ</Link>
         </h1>
       </div>
       <ul className="flex items-center ml-8">
